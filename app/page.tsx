@@ -1,6 +1,7 @@
 import Footer from '@/src/components/layout/Footer';
 import Header from '@/src/components/layout/Header';
 import About from '@/src/components/sections/About';
+import DataProjects from '@/src/components/sections/DataProjects';
 import Hero from '@/src/components/sections/Hero';
 import WebProjects from '@/src/components/sections/WebProjects';
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <WebProjects />
+      <DataProjects />
       <Footer />
     </main>
   );
