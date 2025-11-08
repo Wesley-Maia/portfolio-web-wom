@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface ProjectCardProps {
   title: string;
   description: string;
@@ -17,11 +19,14 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-      <div className="h-48 bg-gray-200 relative">
-        {/* Adicione suas imagens aqui */}
-        <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-          {title}
-        </div>
+      <div className="h-64 bg-gray-200 relative overflow-hidden">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-contain"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
       </div>
 
       <div className="p-6">
