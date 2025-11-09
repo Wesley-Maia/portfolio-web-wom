@@ -4,16 +4,16 @@ const dataProjects = [
   {
     title: 'Dashboard de Alarmes de Sistema de Filling',
     description: 'Dashboard completo com análise de alarmes, previsões e insights de processo.',
-    image: '/images/sales.jpg',
+    image: '/images/pharmaceutical-aseptic-filling.webp',
     tags: ['Python', 'Pandas', 'Plotly', 'Jupyter'],
     githubUrl: 'https://github.com/Wesley-Maia/alarm-sensing-dashboard',
   },
   {
     title: 'Dashboard Interativo de Análise de E-commerce',
     description: 'Dashboard completo com análise de vendas, previsões e insights de negócio.',
-    image: '/images/sales.jpg',
+    image: '/images/ecommerce_dashboard.png',
     tags: ['Python', 'Pandas', 'Plotly', 'Jupyter'],
-    githubUrl: 'https://github.com/usuario/projeto',
+    githubUrl: 'https://github.com/Wesley-Maia/ecommerce-analytics-dashboard',
   },
 ];
 
