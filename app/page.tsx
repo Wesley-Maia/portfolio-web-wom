@@ -1,6 +1,7 @@
 import Footer from '@/src/components/layout/Footer';
 import Header from '@/src/components/layout/Header';
 import About from '@/src/components/sections/About';
+import AutomationProcess from '@/src/components/sections/AutomationProcess';
 import AutomationProjects from '@/src/components/sections/AutomationProjects';
 import DataProjects from '@/src/components/sections/DataProjects';
 import Hero from '@/src/components/sections/Hero';
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <WebProjects />
       <DataProjects />
+      <AutomationProcess />
       <AutomationProjects />
       <Footer />
     </main>
